@@ -22,20 +22,19 @@ class NavBar extends React.Component {
 
                     <div id="main-nav" >
                         <ul class="nav nav-pills justify-content-end">
-                            <li class="nav-item">
-                                <Link class="nav-link" to="/">Home</Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="/aboutUs">About Us</Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="/contactus">Contact Us</Link>
-                            </li>
-
                             {
                                 user !== null ?
                                     user.role !== "Admin" ?
                                         <React.Fragment>
+                                            <li class="nav-item">
+                                                <Link class="nav-link" to="/">Home</Link>
+                                            </li>
+                                            <li class="nav-item">
+                                                <Link class="nav-link" to="/aboutUs">About Us</Link>
+                                            </li>
+                                            <li class="nav-item">
+                                                <Link class="nav-link" to="/contactus">Contact Us</Link>
+                                            </li>
                                             <li class="nav-item">
                                                 <Link class="nav-link" to="/addRegQuery">Drop Query</Link>
                                             </li>
@@ -48,6 +47,9 @@ class NavBar extends React.Component {
                                         </React.Fragment>
 
                                         : <React.Fragment>
+                                            <li class="nav-item">
+                                                <Link class="nav-link" to="/admindashboard">Home</Link>
+                                            </li>
                                             <li class="nav-item">
                                                 <Link class="nav-link" to="/getAllQueries">Feedback</Link>
                                             </li>
@@ -64,6 +66,14 @@ class NavBar extends React.Component {
 
                                     : <React.Fragment>
                                         <li class="nav-item">
+                                            <Link class="nav-link" to="/">Home</Link>
+                                        </li>
+                                        <li class="nav-item">
+                                            <Link class="nav-link" to="/aboutUs">About Us</Link>
+                                        </li>
+                                        <li class="nav-item">
+                                            <Link class="nav-link" to="/contactus">Contact Us</Link>
+                                        </li><li class="nav-item">
                                             <Link class="nav-link" to="/add">Drop Query</Link>
                                         </li>
                                         <li class="nav-item">

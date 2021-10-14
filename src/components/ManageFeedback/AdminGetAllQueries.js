@@ -13,7 +13,7 @@ function getAllQueries() {
             <FetchAllRegQueries /><br></br>
             <FetchAllGuestQueries />
             <div>
-                <Link to="/"><button className="btn btn-primary">Back</button></Link>
+                <Link to="/admindashboard"><button className="btn btn-primary">Back</button></Link>
             </div>
             <Footer />
         </div>

@@ -80,12 +80,6 @@ function FetchAllRegQueries(){
                     </table>
                 </div>
 
-                {/* <div>
-                    <Link to="/save"><button className="btn btn-primary">Add New User</button></Link>
-                </div> */}
-
-
-            
             </div>
 
         );

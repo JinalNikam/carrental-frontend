@@ -52,7 +52,7 @@ class FetchAllCarsByAdmin extends React.Component {
                     <Link to="/savecar"><button className="btn btn-primary">Add New Car</button></Link>
                 </h2></div>
                 <div>
-                    <Link to=""><button className="btn btn-primary" >Back</button></Link> <br></br>
+                    <Link to="/admindashboard"><button className="btn btn-primary" >Back</button></Link> <br></br>
                 </div>
                 <Footer/>
             </div>

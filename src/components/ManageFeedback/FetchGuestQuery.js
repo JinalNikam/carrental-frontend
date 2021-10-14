@@ -8,8 +8,6 @@ function FetchGuestQuery(props){
     const query=useSelector(state=>state.guestUserReducer.query);
     const dispatch=useDispatch();
 
-
-
    useEffect(()=>{
        dispatch(getGuestQueryById(props.match.params.id));
    },[])

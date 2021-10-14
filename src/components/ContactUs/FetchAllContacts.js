@@ -58,7 +58,7 @@ class FetchAllContacts extends React.Component {
                     <Link to="/save"><button className="btn btn-primary">Add New Contact</button></Link> <br></br>
                 </div>
                 <div>
-                    <Link to="/"><button className="btn btn-primary" >Back</button></Link> <br></br>
+                    <Link to="/admindashboard"><button className="btn btn-primary" >Back</button></Link> <br></br>
                 </div>
                 <Footer />
             </div>

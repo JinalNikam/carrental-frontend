@@ -50,7 +50,7 @@ class FetchAllUser extends React.Component {
                     </table>
                 </div>
                 <div>
-                    <Link to="/"><button className="btn btn-primary">Back</button></Link> <br></br>
+                    <Link to="/admindashboard"><button className="btn btn-primary">Back</button></Link> <br></br>
                 </div>
                 
             </div>

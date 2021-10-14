@@ -15,7 +15,7 @@ class Login extends React.Component {
             message: '',
             userList: [],
             isEmailExisting: undefined,
-            manageQuery:'',
+            manageQuery: '',
             role: ''
         }
     }
@@ -63,16 +63,23 @@ class Login extends React.Component {
                                 "Address": resp.data.address,
                                 "mobile": resp.data.mobileNo,
                                 "Email": resp.data.emailId,
-                                "manageQuery":resp.data.manageQuery,
+                                "manageQuery": resp.data.manageQuery,
                                 "role": resp.data.role
                             }
                             localStorage.setItem("user", JSON.stringify(user));
                             this.setState({
                                 isValidUser: true
                             })
-                            
-                            this.props.history.push('/userdashboard');
-                            window.location.reload();
+
+                            if (user.role === "Admin") {
+                                this.props.history.push('/admindashboard');
+                                window.location.reload();
+                            }
+                            else {
+                                this.props.history.push('/userdashboard');
+                                window.location.reload();
+                            }
+
                         }
 
                     }).catch(error => {
@@ -98,7 +105,7 @@ class Login extends React.Component {
 
         return (
             <div>
-                <NavBar/>
+                <NavBar />
                 <form onSubmit={this.handleSubmit} style={{ margin: 'auto', padding: '5%' }} className="container-fluid" >
                     {
 
@@ -123,7 +130,7 @@ class Login extends React.Component {
                         <input type="password" name="password" value={this.state.password} onChange={this.handleChange} className="form-control" placeholder="Enter password" id="password" required />
 
                     </div>
-                    <br/>
+                    <br />
                     <div >
                         <button onclick={this.handleSubmit} className="btn btn-primary" width='50%'>Login</button>
                     </div>
