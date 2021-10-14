@@ -1,0 +1,27 @@
+.card-columns {
+    margin: 2%;
+}
+
+.card-columns .card {
+    display: flex;
+    width: 350px;
+    height: 300px;
+    align-items: center;
+    background-color:gainsboro;
+    padding: 5px;
+}
+
+.card-columns .card:hover{
+    box-shadow: 4px 4px rgb(209, 110, 248);
+    background-color: turquoise;
+}
+
+#btn-center button {
+    background-color: white;
+    height: 3vw;
+    margin-left: 45%;
+}
+
+#btn-center button p {
+    color: royalblue;
+}

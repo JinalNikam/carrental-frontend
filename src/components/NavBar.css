@@ -1,0 +1,34 @@
+#flex-container .container-fluid {
+    display: flex;
+    align-items: center;
+    background-color:lightskyblue;
+}
+
+.img-fluid {
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+}
+  
+.title {
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+    color:yellow;
+}
+
+.title .current {
+    color:navy;
+}
+
+#main-nav {
+    display: flex;
+    margin-left: 10%;
+}
+
+#main-nav .nav .nav-item .nav-link {
+    text-transform: capitalize;
+    font-size: 2vw;
+    color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: right;
+}

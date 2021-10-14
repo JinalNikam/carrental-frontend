@@ -1,0 +1,12 @@
+.logout button {
+    background-color: lightskyblue;
+    border: none;
+    color:royalblue;
+    margin-top: 7%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    outline-style: none;
+}

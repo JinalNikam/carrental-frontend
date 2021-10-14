@@ -1,0 +1,27 @@
+#contact h3 {
+	margin-top: 20px;
+	font-weight:bold;
+	font-style:italic;
+	color:black;
+	text-align: center;	
+}
+
+#contact .table {
+	text-align: center;	
+	margin: auto;
+	width: 60% !important;
+	margin-top: 20px; 
+	margin-bottom: 50px;
+}
+
+#contact .table thead{
+	background-color: cornflowerblue;
+}
+
+#contact .table tr{
+	border: 2px solid;
+}
+
+
+
+

@@ -1,0 +1,81 @@
+.car .container-fluid{
+    margin-top:50px; 
+    width:600px ;
+    padding:20px;
+    background:white;
+    border:2px solid whitesmoke;
+    text-align:left;
+}
+
+.car h1{
+    border: whitesmoke;
+    text-align: center;
+}
+
+.car h2{
+    margin-top:50px; 
+    font-weight:bold;
+    color:black;
+    text-align:center;
+}
+
+.car h3{
+    text-align:center;
+    font-weight: bold;
+}
+
+.form-group{
+   
+        appearance: none;
+        position:relative;
+        text-align: left;
+}
+
+.car h6{
+    margin-top:10px; 
+    font-weight:normal;
+      color:grey;
+    text-align:center;
+}
+
+.table-responsive thead{
+    text-align: center;
+}
+
+.car .container-fluid .form-group select {
+    width: 150px;
+    margin: 5px;
+    border-color:gray;
+}
+
+.car .container-fluid .form-group select:focus {
+    min-width: 550px;
+    width:max-content;
+    border-color: gray;
+}
+
+
+
+
+.fetch-car h2 {
+    color:green;
+    margin-left: 5%;
+}
+
+.fetch-car img {    
+    margin-top: none;
+    margin-left: 20%;
+    max-height: 300px;
+}
+
+.fetch-car p {
+    color: slateblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    padding-left: 8%;
+}
+
+.fetch-car button {
+    margin-left: 15%;
+    margin-top: 3%;
+}

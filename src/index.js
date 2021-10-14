@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import configureStore from './store/ConfigureStore';
+import { Provider } from 'react-redux';
+
+let storeInstance = configureStore();
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={storeInstance}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

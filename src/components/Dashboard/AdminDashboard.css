@@ -1,0 +1,32 @@
+.container .row .col{
+    /* Add shadows to create the "card" effect */
+    width:200px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    margin-right: 50px;
+    text-align: center;
+    font-size: larger;
+}
+
+.col:hover{
+    background-color: cornflowerblue;
+}
+
+.container .row{
+    margin-inline-start: 50px ;
+    margin-top: 50px;
+}
+
+.container .row a{
+    color:black;
+}
+
+.container .row a:link{
+    text-decoration: none;
+}
+
+#dashboard h2{
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight:bold;
+}
