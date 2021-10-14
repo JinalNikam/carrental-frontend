@@ -81,7 +81,7 @@ class SearchCarsByBrand extends React.Component {
                         </div>
                     </div>
                 </div>
-                <Footer/>
+                <Footer />
             </div>
         );
     }

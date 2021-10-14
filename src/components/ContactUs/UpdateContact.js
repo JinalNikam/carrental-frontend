@@ -55,7 +55,7 @@ class UpdateContact extends React.Component {
             .then(resp => {
                 console.log(resp);
                 if (resp.status === 201) {
-                    alert("Car updated successfully");
+                    alert("Contact updated successfully");
                     this.setState({
                         isUpdated: true
                     })
